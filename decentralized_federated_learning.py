@@ -13,7 +13,7 @@ from torch.utils.data import Dataset
 import statistics
 import torch.nn as nn
 import torch.nn.functional as F
-from model import get_mobilenet_classif_2
+from model import get_mobilenet_classif_1
 from torcheval.metrics import MulticlassAccuracy
 from Outils import RMSE, radian_9
 from dataloader import get_test_dataloader
